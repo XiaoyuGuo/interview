@@ -84,7 +84,9 @@ namespace climber_problem
 
     * \brief Split mountains' vector to several heaps
 
-    * \param  const vector<Mountain>& mountains_vecotr
+    * \param  const vector<Mountain>& mountains_vector   Mountains' vector
+
+    * \return vector<size_t> split                       Each pair of value represent a heap in [a, b]
 
     * Space complexity : O(n)
 
@@ -122,9 +124,11 @@ namespace climber_problem
 
     * \param  vector<Mountain>& mountains_vector    mountians_vector
 
-    * \param  const size_t start                    scope of mountains_vector [start, end]
+    * \param  const size_t start                    Scope of mountains_vector [start, end]
 
-    * \param  const size_t end                      scope of mountains_vecotr [start, end]
+    * \param  const size_t end                      Scope of mountains_vecotr [start, end]
+
+    * \return step_of_climb_up                      Step number of climb up in this heap
 
     * Space complexity : O(n)
 
