@@ -113,7 +113,7 @@ namespace climber_problem
 		size_t curr_x;
 		size_t curr_h = 0;
 		size_t i = 0;
-		priority_queue<Mountain, vector<Mountain>, less<Mountain>> pq;
+		priority_queue<Mountain, vector<Mountain>, less<Mountain> > pq;
 		
 		while (!pq.empty() || i < mountains_vector.size())
 		{
