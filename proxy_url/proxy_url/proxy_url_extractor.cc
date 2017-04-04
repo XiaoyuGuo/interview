@@ -117,7 +117,7 @@ namespace qh
 		token.next(); //skip one char : '?' 
 		std::string key;
 		std::string kv_pair;
-		const char* prev_pos = nullptr;
+		const char* prev_pos = NULL;
 		s32 prev_readable;
 
 		while (!token.isEnd()) {
