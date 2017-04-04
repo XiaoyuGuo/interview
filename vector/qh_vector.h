@@ -32,7 +32,7 @@ namespace qh
 			// Avoid self
 			if (this != &rhs)
 			{
-				if (data) {
+				if (data_) {
 					delete[] data_;
 				}
 
