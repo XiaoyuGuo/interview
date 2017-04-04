@@ -105,7 +105,7 @@ namespace qh
 
     * \param std::string& sub_url          Target value. Warning, can be changed and effect outside
 
-    * Time Complexity   : O(num(keys) * num(&) + len(raw_url))
+    * Time Complexity   : O(log(num(keys)) * num(&) + len(raw_url))
 
     * Memory Complexity : O(2 * sizeof(raw_url) + sizeof(keys) + sizeof(sub_url))
 
