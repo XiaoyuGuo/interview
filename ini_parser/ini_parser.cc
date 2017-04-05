@@ -1,6 +1,6 @@
 #include "ini_parser.h"
 #include <fstream>
-
+#include <iostream>
 namespace qh
 {
 
@@ -86,7 +86,7 @@ namespace qh
 	*/
 	bool INIParser::Parse(const std::string& in_file_path, const std::string& line_seperator)
 	{
-		std::ifstream in_file(in_file_path);
+		std::ifstream in_file(in_file_path.c_str());
 		std::string line;
 
 		// Clear the dictionary
