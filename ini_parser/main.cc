@@ -108,12 +108,12 @@ void test6()
 {
 	qh::INIParser parser;
 
-	if (!parser.Parse( "d:\\c.txt", "=")) {
+	if (!parser.Parse("test.txt", "=")) {
 		assert(false);
 	}
 
 	const std::string& a = parser.Get("test_section", "a", NULL);
-	assert(a == "3");
+        assert(a == "3");
 
 	std::string b = parser.Get("test_section", "b", NULL);
 	assert(b == "4");
