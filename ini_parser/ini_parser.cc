@@ -126,9 +126,9 @@ namespace qh
 
 	*/
 	bool INIParser::Parse(const char*  ini_data,
-		                              size_t ini_data_len, 
-		                              const std::string& line_seperator = "\n",
-		                              const std::string& key_value_seperator = "=")
+		                  size_t ini_data_len, 
+		                  const std::string& line_seperator = "\n",
+		                  const std::string& key_value_seperator = "=")
 	{
 		// Clear the dictionary
 		dictionary.clear();
