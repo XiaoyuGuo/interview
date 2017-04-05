@@ -107,7 +107,7 @@ namespace qh
 
     * Time Complexity   : O(log(num(keys)) * num(&) + len(raw_url))
 
-    * Memory Complexity : O(2 * sizeof(raw_url) + sizeof(keys) + sizeof(sub_url))
+    * Memory Complexity : O(3 * sizeof(raw_url))
 
     */
 	void ProxyURLExtractor::Extract(const KeyItems& keys, const std::string& raw_url, std::string& sub_url)

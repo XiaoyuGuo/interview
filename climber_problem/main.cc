@@ -97,7 +97,7 @@ namespace climber_problem
 
 	* \param  const vector<Mountain> & mountains_vector
 
-	* \return size_t up_step               Number of step climbing up
+	* \return size_t up_step      Number of step climbing up
 
 	* Space complexity : O(n)
 
